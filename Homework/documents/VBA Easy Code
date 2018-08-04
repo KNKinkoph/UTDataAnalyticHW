@@ -1,0 +1,31 @@
+Attribute VB_Name = "Module1"
+Sub Easy_Test():
+'Set data type
+    Dim Name As String
+    Dim Value As Double
+    Dim i As Double
+    Dim j As Double
+
+'Define Variables
+    j = 2
+    i = 2
+    
+'Define Labels for new columns
+    Cells(1, 9).Value = "Ticker"
+    Cells(1, 10).Value = "Total Volume"
+
+'Create Loops
+Do While Cells(j, 1) <> ""
+    Name = Cells(j, 1).Value
+    Value = 0
+        Do While Cells(j, 1).Value = Name
+            Value = Value + Cells(j, 7).Value
+            j = j + 1
+        Loop
+    Cells(i, 9).Value = Name
+    Cells(i, 10).Value = Value
+    i = i + 1
+Loop
+
+
+End Sub
