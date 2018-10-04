@@ -1,0 +1,49 @@
+#body {
+    background-color: whitesmoke;
+}
+
+#Latitude {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    background-color: teal ;
+    color: rgb(255, 255, 255);
+}
+
+#column1 {
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
+    display: flex; flex-wrap: wrap; 
+    flex: 50%;
+    padding: 20px; 
+    margin-right: 30px; 
+}
+
+#column2 {
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
+    display: flex; flex-wrap: wrap;     
+}
+
+#comparison {
+    font-weight: bold;
+    color: teal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
+    display: flex; flex-wrap: wrap; 
+
+#summary {
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: teal;
+    font-size: 30px;
+}
+
+#visualizations {
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: teal;
+    font-size: 30px;
+}
